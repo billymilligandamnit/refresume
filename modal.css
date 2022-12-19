@@ -1,0 +1,58 @@
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5) 
+}
+
+.modal-window{
+    background: white;
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+}
+
+.modal-header{
+    border:0px;
+
+}
+
+.modal-close{
+    cursor: pointer;
+    position: relative;
+    right: 0px;
+    left: 500px;
+
+    
+}
+
+.modalbody{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+.modalbody p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 18px;
+line-height: 20px;
+text-align: start;
+letter-spacing: 0.07em;
+
+margin: 0 0 5px;
+
+
+
+}
+
+.modal-footer button{
+margin-left: 500px;
+
+}
